@@ -1,7 +1,7 @@
 .card{
     width: 700px;
     height: 130px;
-    /* border: 2px solid black; */
+    border: 2px solid black;
     display: flex;
     box-sizing: border-box;
 margin: 5px;
@@ -23,16 +23,21 @@ margin: 5px;
     margin-top: -30px;
     color: rgb(18, 23, 27);
 }
-.sp{
+.img{
+    position: relative;
+    
+}
+.img img{
+    border-radius: 20px;
+}
+
+.img .dur{
     position: absolute;
-      top:18%;
-      left: 35%;
-      transform: translate(-50%, -50%);
-      color: white;
-    background-color: black;
-    color: azure;
+    bottom: 1px;
+    right: 14%;
     border-radius: 4px;
-    font-size: 13px;
-    font-weight: 200;
-    padding: 3px 4px;
+    background-color: black;
+    color: white;
+    padding: 2px 4px;
+    font-size: 12px;
 }
