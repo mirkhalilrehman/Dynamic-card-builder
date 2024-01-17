@@ -1,0 +1,38 @@
+.card{
+    width: 700px;
+    height: 130px;
+    /* border: 2px solid black; */
+    display: flex;
+    box-sizing: border-box;
+margin: 5px;
+}
+.card img{
+    padding: 10px;
+    height: 110px;
+    position: relative;
+}
+.text{
+   display: flex;
+   flex-direction: column;
+   padding: 2px;
+   
+}
+.line{
+    display: flex;
+    gap: 7px;
+    margin-top: -30px;
+    color: rgb(18, 23, 27);
+}
+.sp{
+    position: absolute;
+      top:18%;
+      left: 35%;
+      transform: translate(-50%, -50%);
+      color: white;
+    background-color: black;
+    color: azure;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 200;
+    padding: 3px 4px;
+}
